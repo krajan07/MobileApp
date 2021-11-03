@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<!--suite name="Suite1">
+  <parameter name="username" value="standard_user@abc.com"/>
+  <parameter name="password" value="abc"/>
+	<test thread-count="5" name="Shopping">
+    	<classes>
+      	<class name="Simplilearn.LoginTesting"/>
+		</classes>
+    </test> 
+</suite--> 
+
+<!--suite name="Suite1">
+  <parameter name="username" value="standard_user"/>
+  <parameter name="password" value="secret_sauce"/>
+	<test thread-count="5" name="Shopping">
+    	<classes>
+      	<class name="Shopping.AddCart"/>
+		</classes>
+    </test> 
+</suite--> 
+
+<!--suite name="Regression Suite">
+<groups>
+  	<run>
+  		<include name="Rgression"/>
+  	</run>
+  </groups>
+ <test name="Regression Test" thread-count="5">
+ <classes>
+ 	<class name="TestSuite1.TC2"/>
+    <class name="TestSuite1.TC1"/>
+</classes>
+</test>
+</suite--> 
+
+<!-- TEST CASE EXAMPLE -->
+<!-- suite name="Suite"-->
+  <!--test thread-count="5" name="Test">
+    <classes>
+      <class name="TestSuite1.TC2"/>
+      <class name="TestSuite1.TC1">
+      	<methods>
+      		<include name=".*Test.*"></include>
+      	</methods>
+      </class>
+      <class name="TestSuite2.TC3">
+    </classes>
+  </test--> <!-- Test -->
+<!-- Suite -->
+
+
+<!-- TEST CASE SIMPLILEARN LOGIN -->
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="DemoAPIs.DemoAPITesting"/>
+    </classes>
+  </test> 
+</suite>
+
+
+
+
